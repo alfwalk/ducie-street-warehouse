@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ducie Street Warehouse — Bar, Restaurant &amp; Hotel, Manchester M1</title>
+<meta name="description" content="Ducie Street Warehouse: laid-back food, cocktails and live music in a warehouse-chic bar, restaurant and hotel by Piccadilly, Manchester. Open from 7:30am for coffee and breakfast through to late on Fridays and Saturdays.">
+<link rel="canonical" href="https://alfwalk.github.io/ducie-street-warehouse/">
+<meta name="theme-color" content="#100d0b">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ducie Street Warehouse">
+<meta property="og:title" content="Ducie Street Warehouse — Bar, Restaurant &amp; Hotel, Manchester">
+<meta property="og:description" content="Coffee at 7:30am, cocktails till late. A warehouse-chic bar, restaurant and hotel on Ducie Street, Manchester M1 2TP.">
+<meta property="og:url" content="https://alfwalk.github.io/ducie-street-warehouse/">
+<meta property="og:image" content="https://alfwalk.github.io/ducie-street-warehouse/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ducie Street Warehouse — Manchester">
+<meta name="twitter:description" content="Coffee at 7:30am, cocktails till late. A warehouse-chic bar, restaurant and hotel on Ducie Street, Manchester M1 2TP.">
+<meta name="twitter:image" content="https://alfwalk.github.io/ducie-street-warehouse/og.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="media/poster.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarOrPub",
+  "name": "Ducie Street Warehouse",
+  "url": "https://alfwalk.github.io/ducie-street-warehouse/",
+  "image": "https://alfwalk.github.io/ducie-street-warehouse/og.jpg",
+  "telephone": "+441615039460",
+  "priceRange": "£10–30",
+  "servesCuisine": "British",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ducie Street",
+    "addressLocality": "Manchester",
+    "postalCode": "M1 2TP",
+    "addressCountry": "GB"
+  },
+  "hasMenu": "https://duciestreet.com",
+  "acceptsReservations": "https://duciestreet.com",
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"07:30","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"08:30","closes":"23:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:30","closes":"19:00"}
+  ],
+  "aggregateRating": {"@type":"AggregateRating","ratingValue":"4.3","reviewCount":"1538"}
+}
+</script>
+
+<style>
+:root{
+  --soot:#100d0b; --iron:#1b1714; --iron-2:#26211d;
+  --ember:#e39a3f; --ember-deep:#b8702a; --brick:#8c3f2b;
+  --chalk:#f2ebdf; --bone:#e9e1d3; --paper:#f4efe6;
+  --ash:#8f877c; --ink:#1a1512; --hairline:rgba(242,235,223,.14); --hairline-light:rgba(26,21,18,.14);
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Instrument Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"DM Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --gutter:clamp(20px,5vw,72px); --max:1240px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--soot);color:var(--chalk);font-family:var(--body);font-size:17px;line-height:1.55;overflow-x:hidden}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1;margin:0}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ember)}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:500;text-decoration:none;font-size:15px;transition:transform .35s var(--ease),background .25s,color .25s;will-change:transform}
+.btn:hover{transform:translateY(-2px)}
+.btn-ember{background:var(--ember);color:var(--ink)}
+.btn-ember:hover{background:#f0ad57}
+.btn-ghost{border:1px solid var(--hairline);color:var(--chalk)}
+.btn-ghost:hover{border-color:var(--chalk)}
+.btn-dark{background:var(--ink);color:var(--chalk)}
+.btn svg{width:16px;height:16px}
+:focus-visible{outline:2px solid var(--ember);outline-offset:3px}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;padding:18px 0;transition:background .4s,backdrop-filter .4s}
+.nav.solid{background:rgba(16,13,11,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--hairline)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand svg{width:34px;height:34px}
+.brand span{font-family:var(--display);font-weight:800;font-size:18px;letter-spacing:-.01em;line-height:1}
+.brand small{display:block;font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.16em;color:var(--ash);margin-top:3px}
+.nav-links{display:flex;gap:28px;font-size:14px;font-weight:500}
+.nav-links a{text-decoration:none;opacity:.8;transition:opacity .2s}
+.nav-links a:hover{opacity:1}
+.nav-cta{display:flex;gap:10px}
+.nav-cta .btn{padding:10px 16px;font-size:14px}
+@media (max-width:860px){.nav-links{display:none}.nav-cta .btn-ghost{display:none}}
+@media (max-width:480px){.brand span{font-size:16px}.brand small{display:none}.hero-meta{font-size:11px}}
+
+/* hero */
+.hero{position:relative;height:100svh;min-height:640px;overflow:hidden;display:flex;align-items:flex-end}
+.hero-media{position:absolute;inset:-12% 0;will-change:transform}
+.hero-media video,.hero-media img{width:100%;height:100%;object-fit:cover}
+.hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,13,11,.35) 0%,rgba(16,13,11,.08) 30%,rgba(16,13,11,.45) 60%,var(--soot) 100%)}
+.hero-ghost{position:absolute;left:0;right:0;top:14%;text-align:center;font-family:var(--display);font-weight:800;font-size:clamp(90px,22vw,340px);line-height:.85;letter-spacing:-.05em;color:transparent;-webkit-text-stroke:1px rgba(242,235,223,.16);pointer-events:none;user-select:none;will-change:transform}
+.hero-content{position:relative;z-index:2;width:100%;padding-bottom:clamp(40px,8vh,90px);will-change:transform}
+.hero h1{font-size:clamp(52px,9.5vw,148px);font-weight:800;letter-spacing:-.045em;line-height:.9;max-width:12ch}
+.hero h1 em{font-style:normal;color:var(--ember)}
+.hero-sub{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px;margin-top:28px}
+.hero-sub p{margin:0;max-width:44ch;font-size:clamp(16px,1.6vw,20px);color:rgba(242,235,223,.82)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:34px;padding-top:22px;border-top:1px solid var(--hairline);font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ash)}
+.hero-meta b{color:var(--chalk);font-weight:500}
+.scroll-hint{position:absolute;right:var(--gutter);bottom:clamp(40px,8vh,90px);z-index:3;display:none;font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--ash);writing-mode:vertical-rl;transform:rotate(180deg)}
+@media (min-width:1100px){.scroll-hint{display:block}}
+.scroll-hint::after{content:"";display:block;width:1px;height:48px;background:var(--ember);margin:0 auto 12px;animation:drip 2.4s var(--ease) infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:bottom}50%{transform:scaleY(1);transform-origin:bottom}51%{transform-origin:top}100%{transform:scaleY(0);transform-origin:top}}
+
+/* sections */
+section{position:relative}
+.sec-pad{padding:clamp(88px,12vw,150px) 0}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+
+/* about */
+.about{background:var(--soot)}
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,96px);align-items:center}
+.about h2{font-size:clamp(38px,5.4vw,76px);letter-spacing:-.035em;line-height:.96;margin:18px 0 26px}
+.about p{color:rgba(242,235,223,.78);font-size:clamp(16px,1.4vw,19px);max-width:52ch}
+.about-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:38px;padding-top:28px;border-top:1px solid var(--hairline)}
+.fact b{display:block;font-family:var(--display);font-size:clamp(26px,3vw,40px);font-weight:700;letter-spacing:-.03em;line-height:1;color:var(--chalk)}
+.fact span{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ash);margin-top:8px}
+.about-art{position:relative;aspect-ratio:4/5;border-radius:20px;overflow:hidden;background:var(--iron)}
+.about-art img{width:100%;height:100%;object-fit:cover;transform:scale(1.12);will-change:transform}
+.about-art .plate{position:absolute;left:18px;bottom:18px;right:18px;padding:16px 18px;border-radius:14px;background:rgba(16,13,11,.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--hairline);display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ash)}
+.about-art .plate b{color:var(--ember);font-weight:500}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}.about-art{aspect-ratio:4/3;order:-1}}
+
+/* menu */
+.menu{background:var(--paper);color:var(--ink)}
+.menu .eyebrow{color:var(--brick)}
+.menu-head{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:clamp(40px,5vw,64px)}
+.menu h2{font-size:clamp(38px,5.4vw,76px);letter-spacing:-.035em;line-height:.96;margin-top:18px}
+.menu-head p{margin:0;color:#5b544c;max-width:40ch}
+.menu-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--hairline-light);border-left:1px solid var(--hairline-light)}
+.menu-col{padding:28px 26px 30px;border-right:1px solid var(--hairline-light);border-bottom:1px solid var(--hairline-light)}
+.menu-col h3{font-size:22px;letter-spacing:-.02em;font-weight:700;display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.menu-col h3 small{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ash);font-weight:400}
+.menu-col ul{list-style:none;padding:0;margin:20px 0 0}
+.menu-col li{padding:11px 0;border-top:1px dashed var(--hairline-light);font-size:16px;display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.menu-col li:first-child{border-top:0;padding-top:0}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--brick);white-space:nowrap}
+.menu-foot{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-top:36px;font-size:15px;color:#5b544c}
+@media (max-width:1000px){.menu-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.menu-grid{grid-template-columns:1fr}.menu-head{grid-template-columns:1fr}}
+
+/* reviews */
+.reviews{background:var(--iron);overflow:hidden}
+.reviews-head{display:flex;flex-wrap:wrap;gap:20px;align-items:end;justify-content:space-between;margin-bottom:clamp(36px,5vw,60px)}
+.reviews h2{font-size:clamp(38px,5.4vw,76px);letter-spacing:-.035em;line-height:.96;margin-top:18px}
+.rating{display:flex;align-items:center;gap:14px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ash)}
+.rating b{font-family:var(--display);font-size:44px;letter-spacing:-.03em;color:var(--chalk);font-weight:700;line-height:1}
+.stars{display:inline-flex;gap:2px}
+.stars svg{width:14px;height:14px;fill:var(--ember)}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.review{position:relative;padding:34px 30px 30px;border-radius:20px;background:var(--iron-2);border:1px solid var(--hairline);display:flex;flex-direction:column;gap:22px;will-change:transform}
+.review q{quotes:"“" "”";font-family:var(--display);font-weight:500;font-size:clamp(20px,1.7vw,24px);letter-spacing:-.015em;line-height:1.25;color:var(--chalk)}
+.review q::before{color:var(--ember)}
+.review footer{margin-top:auto;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ash);display:flex;justify-content:space-between;gap:10px}
+.review footer b{color:var(--chalk);font-weight:500}
+.ghost-band{position:absolute;left:0;right:0;bottom:-.1em;font-family:var(--display);font-weight:800;font-size:clamp(120px,24vw,360px);line-height:.8;letter-spacing:-.05em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px rgba(242,235,223,.08);pointer-events:none;will-change:transform}
+@media (max-width:900px){.review-grid{grid-template-columns:1fr}}
+
+/* hours + location */
+.visit{background:var(--bone);color:var(--ink)}
+.visit .eyebrow{color:var(--brick)}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,96px)}
+.visit h2{font-size:clamp(38px,5.4vw,76px);letter-spacing:-.035em;line-height:.96;margin:18px 0 28px}
+.hours{list-style:none;margin:0;padding:0;border-top:1px solid var(--hairline-light)}
+.hours li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--hairline-light);font-size:16px}
+.hours li span:first-child{font-weight:500}
+.hours li span:last-child{font-family:var(--mono);font-size:14px;color:#3a332d}
+.hours li.late span:last-child{color:var(--brick)}
+.hours-note{margin-top:16px;font-size:14px;color:#6a625a}
+.open-now{display:inline-flex;align-items:center;gap:8px;margin-bottom:14px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#3a332d}
+.open-now i{width:8px;height:8px;border-radius:50%;background:#7f7a73}
+.open-now.on i{background:#2f9e5b;box-shadow:0 0 0 4px rgba(47,158,91,.18)}
+.map-card{position:relative;border-radius:20px;overflow:hidden;background:var(--ink);color:var(--chalk);min-height:420px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px}
+.map-card svg.map{position:absolute;inset:0;width:100%;height:100%;will-change:transform}
+.map-card .addr{position:relative;z-index:2}
+.map-card .addr h3{font-size:clamp(26px,2.6vw,36px);letter-spacing:-.03em;line-height:1.05;font-weight:700;margin-bottom:14px}
+.map-card .addr p{margin:0 0 20px;color:rgba(242,235,223,.75);font-size:15px;max-width:38ch}
+.map-card .addr .btn{margin-right:8px}
+.pin{position:absolute;left:58%;top:46%;z-index:2;transform:translate(-50%,-100%)}
+.pin::before{content:"";position:absolute;left:50%;bottom:-6px;width:28px;height:10px;border-radius:50%;background:rgba(0,0,0,.5);transform:translateX(-50%);filter:blur(3px)}
+.pin svg{width:38px;height:48px;display:block;animation:hover 3s var(--ease) infinite}
+@keyframes hover{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (max-width:900px){.visit-grid{grid-template-columns:1fr}}
+
+/* footer */
+footer.site{background:var(--soot);padding:clamp(64px,8vw,110px) 0 36px;border-top:1px solid var(--hairline)}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;align-items:start}
+.foot-grid h3{font-size:clamp(28px,3.4vw,48px);letter-spacing:-.035em;line-height:.98;font-weight:800;max-width:14ch}
+.foot-grid h3 em{font-style:normal;color:var(--ember)}
+.foot-col p,.foot-col a{margin:0;color:rgba(242,235,223,.75);font-size:15px;text-decoration:none;display:block;line-height:1.7}
+.foot-col a:hover{color:var(--chalk)}
+.foot-col .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ash);margin-bottom:12px;display:block}
+.foot-col .big{font-family:var(--display);font-size:clamp(22px,2.4vw,30px);font-weight:700;letter-spacing:-.02em;color:var(--chalk);line-height:1.15}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:64px;padding-top:24px;border-top:1px solid var(--hairline);font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ash)}
+@media (max-width:820px){.foot-grid{grid-template-columns:1fr}}
+
+/* mobile bar */
+.mobile-bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;display:none;gap:8px;padding:8px;border-radius:999px;background:rgba(16,13,11,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--hairline);transform:translateY(120%);transition:transform .5s var(--ease)}
+.mobile-bar.show{transform:none}
+.mobile-bar .btn{flex:1;justify-content:center;padding:12px 10px;font-size:14px}
+@media (max-width:640px){.mobile-bar{display:flex}footer.site{padding-bottom:96px}}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .pin svg,.scroll-hint::after{animation:none}
+  .btn{transition:none}
+  [data-parallax]{transform:none!important}
+}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Ducie Street Warehouse — home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#e39a3f"/><path d="M18 16h14c11 0 18 6.6 18 16s-7 16-18 16H18V16zm9 7.5v17h5c5.6 0 9-3.2 9-8.5s-3.4-8.5-9-8.5h-5z" fill="#100d0b"/><circle cx="46" cy="47" r="4" fill="#100d0b"/></svg>
+      <span>Ducie Street Warehouse<small>Manchester · M1</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#about">About</a><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Hours &amp; Visit</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="tel:+441615039460">0161 503 9460</a>
+      <a class="btn btn-ember" href="https://duciestreet.com" target="_blank" rel="noopener">Book a table</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Welcome">
+  <div class="hero-media" data-parallax="-0.18">
+    <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="media/poster.jpg" aria-hidden="true">
+      <source src="media/hero.webm" type="video/webm" media="(min-width: 700px)">
+      <source src="media/hero.mp4" type="video/mp4" media="(min-width: 700px)">
+      <source src="media/hero-540.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-ghost" data-parallax="0.12" aria-hidden="true">DUCIE ST.</div>
+  <div class="hero-content" data-parallax="0.32">
+    <div class="wrap">
+      <p class="eyebrow">Bar · Restaurant · Hotel — Piccadilly, Manchester</p>
+      <h1 style="margin-top:18px">Coffee at half seven.<br>Cocktails <em>till late.</em></h1>
+      <div class="hero-sub">
+        <p>Laid-back food, a proper bar and live music under one warehouse roof — from the first flat white to the last round on a Saturday night.</p>
+        <div class="hero-cta">
+          <a class="btn btn-ember" href="https://duciestreet.com" target="_blank" rel="noopener">Book a table <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Ducie+Street+Warehouse%2C+Ducie+St%2C+Manchester+M1+2TP" target="_blank" rel="noopener">Directions</a>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span>Mon–Thu <b>7:30am–7pm</b></span><span>Fri–Sat <b>8:30am–11pm</b></span><span>Sun <b>8:30am–7pm</b></span><span><b>4.3</b> · 1,538 Google reviews</span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">Scroll</div>
+</section>
+
+<section class="about sec-pad" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="eyebrow">About the Warehouse</p>
+      <h2>One warehouse.<br>All day long.</h2>
+      <p>Ducie Street Warehouse is a bar, restaurant and hotel in one warehouse-chic space a few minutes from Piccadilly. Mornings are for coffee, breakfast and a quiet corner. By evening the lights come down, the music comes up and the bar takes over.</p>
+      <p>The kitchen keeps it laid-back — small plates, mac and cheese, a Sunday roast that people keep coming back for — alongside a cocktail list and a well-stocked beer selection. Live music and dancing round out the weekend.</p>
+      <div class="about-facts">
+        <div class="fact"><b>7:30<small style="font-size:.5em">am</small></b><span>Doors, Mon–Thu</span></div>
+        <div class="fact"><b>11<small style="font-size:.5em">pm</small></b><span>Last call, Fri &amp; Sat</span></div>
+        <div class="fact"><b>£10–30</b><span>Per person, typically</span></div>
+      </div>
+    </div>
+    <div class="about-art reveal">
+      <img src="media/bar-still.jpg" width="900" height="675" alt="Backlit bottles beneath pendant bulbs against a brick wall" data-parallax="0.10" loading="lazy">
+      <div class="plate"><span>Live music · Dancing · Food at the bar</span><b>M1 2TP</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec-pad" id="menu">
+  <div class="wrap">
+    <div class="menu-head reveal">
+      <div>
+        <p class="eyebrow">What's on the pass</p>
+        <h2>Menu highlights</h2>
+      </div>
+      <p>The dishes people order most, morning to night. Full menus and prices are on the main site.</p>
+    </div>
+    <div class="menu-grid reveal">
+      <div class="menu-col">
+        <h3>Morning <small>from 7:30</small></h3>
+        <ul>
+          <li>Full English Breakfast <span class="tag">Popular</span></li>
+          <li>Full Vegan Breakfast</li>
+          <li>Scrambled Eggs</li>
+          <li>French Toast</li>
+          <li>Coffee &amp; Scone</li>
+          <li>Flat White</li>
+          <li>Juice</li>
+        </ul>
+      </div>
+      <div class="menu-col">
+        <h3>Small plates <small>to share</small></h3>
+        <ul>
+          <li>Chicken Gyoza, Yuzu Ponzu <span class="tag">Popular</span></li>
+          <li>Mini Yorkshire Pudding, Dipping Gravy <span class="tag">Popular</span></li>
+          <li>Mini Fondue Sourdough Sticks</li>
+          <li>Sourdough &amp; Caramelised Onion Butter</li>
+          <li>Shoestring Fries <span class="tag">Popular</span></li>
+          <li>Flatbread</li>
+        </ul>
+      </div>
+      <div class="menu-col">
+        <h3>Mains <small>&amp; Sunday</small></h3>
+        <ul>
+          <li>Roast Beef Sunday Dinner <span class="tag">Popular</span></li>
+          <li>DSW Macaroni Cheese <span class="tag">Popular</span></li>
+          <li>Pasta of the Day <span class="tag">Popular</span></li>
+          <li>Steak</li>
+        </ul>
+      </div>
+      <div class="menu-col">
+        <h3>Sweet <small>&amp; to drink</small></h3>
+        <ul>
+          <li>Lemon Bavarois &amp; Hibiscus Meringue <span class="tag">Popular</span></li>
+          <li>Sticky Toffee Choux Bun</li>
+          <li>Prosecco</li>
+          <li>Cocktails &amp; craft beer</li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-foot reveal">
+      <span>Menus change with the season — check the main site before you set your heart on something.</span>
+      <a class="btn btn-dark" href="https://duciestreet.com" target="_blank" rel="noopener">View the full menu <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="reviews sec-pad" id="reviews">
+  <div class="ghost-band" data-parallax="-0.08" aria-hidden="true">WAREHOUSE</div>
+  <div class="wrap">
+    <div class="reviews-head reveal">
+      <div>
+        <p class="eyebrow">In their words</p>
+        <h2>What people say</h2>
+      </div>
+      <div class="rating"><b>4.3</b><span><span class="stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L1.3 7.8l6.1-.7z" opacity=".35"/></svg></span><br>1,538 Google reviews</span></div>
+    </div>
+    <div class="review-grid">
+      <article class="review reveal">
+        <q>The decor is amazing, the atmosphere is electric. The bar is huge, the food is amazing.</q>
+        <footer><b>Mark Horton Photos</b><span>Google · ★★★★★</span></footer>
+      </article>
+      <article class="review reveal" style="transition-delay:.1s">
+        <q>I was really impressed with the quality of the food, I had a delicious margarita whilst my friends enjoyed their burgers! I highly recommend the kiwi kiss cocktail!!! The staff were lovely and accommodating.</q>
+        <footer><b>Gracie</b><span>Google · ★★★★★</span></footer>
+      </article>
+      <article class="review reveal" style="transition-delay:.2s">
+        <q>A large renovated warehouse now operating as a bar and restaurant. It had a funky vibe with live music supplied by an on-site DJ.</q>
+        <footer><b>Ralphie</b><span>Google · Local Guide</span></footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="visit sec-pad" id="visit">
+  <div class="wrap visit-grid">
+    <div class="reveal">
+      <p class="eyebrow">Hours</p>
+      <h2>When we're open</h2>
+      <div class="open-now" id="openNow"><i></i><span>Checking today's hours…</span></div>
+      <ul class="hours" id="hours">
+        <li data-d="1"><span>Monday</span><span>7:30am – 7pm</span></li>
+        <li data-d="2"><span>Tuesday</span><span>7:30am – 7pm</span></li>
+        <li data-d="3"><span>Wednesday</span><span>7:30am – 7pm</span></li>
+        <li data-d="4"><span>Thursday</span><span>7:30am – 7pm</span></li>
+        <li data-d="5" class="late"><span>Friday</span><span>8:30am – 11pm</span></li>
+        <li data-d="6" class="late"><span>Saturday</span><span>8:30am – 11pm</span></li>
+        <li data-d="0"><span>Sunday</span><span>8:30am – 7pm</span></li>
+      </ul>
+      <p class="hours-note">Hours as listed on Google. Bank holidays and event nights can differ — ring ahead if you're travelling.</p>
+    </div>
+    <div class="map-card reveal">
+      <svg class="map" data-parallax="0.06" viewBox="0 0 600 520" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect width="600" height="520" fill="#1a1512"/>
+        <g stroke="#2b2520" stroke-width="18" stroke-linecap="round" fill="none">
+          <path d="M-20 120 L620 60"/><path d="M-20 300 L620 240"/><path d="M-20 480 L620 420"/>
+          <path d="M120 -20 L60 540"/><path d="M330 -20 L270 540"/><path d="M540 -20 L480 540"/>
+        </g>
+        <path d="M-20 400 C150 340 260 380 420 300 S560 220 620 210" stroke="#2f4e5a" stroke-width="26" fill="none" opacity=".8"/>
+        <path d="M-20 400 C150 340 260 380 420 300 S560 220 620 210" stroke="#3b6674" stroke-width="6" fill="none" opacity=".5"/>
+        <g stroke="#3a332d" stroke-width="7" stroke-linecap="round" fill="none"><path d="M0 210 L600 150"/><path d="M225 0 L175 520"/><path d="M435 0 L385 520"/></g>
+        <rect x="300" y="190" width="150" height="90" rx="6" transform="rotate(-6 375 235)" fill="#e39a3f" opacity=".16"/>
+        <text x="36" y="500" font-family="DM Mono, monospace" font-size="11" letter-spacing="2" fill="#6d655c">DUCIE ST · STORE ST · DALE ST · PICCADILLY</text>
+      </svg>
+      <div class="pin" aria-hidden="true"><svg viewBox="0 0 38 48"><path d="M19 47C19 47 3 27 3 17a16 16 0 0 1 32 0c0 10-16 30-16 30z" fill="#e39a3f"/><circle cx="19" cy="17" r="6" fill="#100d0b"/></svg></div>
+      <div class="addr">
+        <p class="eyebrow" style="color:var(--ember)">Find us</p>
+        <h3 style="margin-top:12px">Ducie Street,<br>Manchester M1 2TP</h3>
+        <p>Off Dale Street, a short walk from Piccadilly station and the Northern Quarter.</p>
+        <a class="btn btn-ember" href="https://www.google.com/maps/dir/?api=1&destination=Ducie+Street+Warehouse%2C+Ducie+St%2C+Manchester+M1+2TP" target="_blank" rel="noopener">Get directions <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="btn btn-ghost" href="tel:+441615039460">Call us</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site" id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col reveal">
+        <h3>See you at <em>the Warehouse.</em></h3>
+        <p style="margin-top:18px;max-width:38ch">Walk-ins welcome. For groups, Sunday roast and weekend evenings, booking ahead is the safer bet.</p>
+      </div>
+      <div class="foot-col reveal">
+        <span class="lbl">Call</span>
+        <a class="big" href="tel:+441615039460">0161 503 9460</a>
+        <span class="lbl" style="margin-top:22px">Book &amp; menus</span>
+        <a href="https://duciestreet.com" target="_blank" rel="noopener">duciestreet.com ↗</a>
+      </div>
+      <div class="foot-col reveal">
+        <span class="lbl">Visit</span>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Ducie+Street+Warehouse%2C+Ducie+St%2C+Manchester+M1+2TP" target="_blank" rel="noopener">Ducie Street<br>Manchester M1 2TP ↗</a>
+        <span class="lbl" style="margin-top:22px">Open</span>
+        <p>Mon–Thu 7:30am–7pm<br>Fri–Sat 8:30am–11pm<br>Sun 8:30am–7pm</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr"></span> Ducie Street Warehouse</span>
+      <span>Bar · Restaurant · Hotel · Manchester</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-bar" id="mobileBar">
+  <a class="btn btn-ghost" href="tel:+441615039460">Call</a>
+  <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Ducie+Street+Warehouse%2C+Ducie+St%2C+Manchester+M1+2TP" target="_blank" rel="noopener">Directions</a>
+  <a class="btn btn-ember" href="https://duciestreet.com" target="_blank" rel="noopener">Book</a>
+</div>
+
+<script>
+(function(){
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // nav / mobile bar
+  var nav=document.getElementById('nav'),mb=document.getElementById('mobileBar');
+  function chrome(){var y=window.scrollY||0;nav.classList.toggle('solid',y>40);mb.classList.toggle('show',y>window.innerHeight*0.6)}
+  chrome();addEventListener('scroll',chrome,{passive:true});
+
+  // reveal
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -10% 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')})}
+
+  // transform-based parallax: three depths in the hero (-0.18 media / 0.12 ghost / 0.32 copy) + section accents.
+  // Only elements near the viewport are moved; positions are read once per frame via rAF.
+  if(!reduce){
+    var els=[].slice.call(document.querySelectorAll('[data-parallax]')).map(function(el){return{el:el,f:parseFloat(el.getAttribute('data-parallax'))||0,top:0,h:0,base:el.tagName==='IMG'?'scale(1.12) ':''}});
+    var vh=innerHeight,ticking=false;
+    function measure(){vh=innerHeight;els.forEach(function(o){var r=o.el.getBoundingClientRect();o.top=r.top+scrollY;o.h=r.height})}
+    function frame(){
+      ticking=false;var y=scrollY;
+      els.forEach(function(o){
+        if(o.top+o.h<y-200||o.top>y+vh+200)return;
+        // progress relative to the element's parent section centre → symmetric drift, no jump at load
+        var sec=o.el.closest('section,footer')||o.el;var rect=sec.getBoundingClientRect();
+        var centre=rect.top+rect.height/2-vh/2;
+        var d=(sec.classList.contains('hero')?y:centre)*o.f;
+        o.el.style.transform=o.base+'translate3d(0,'+d.toFixed(1)+'px,0)';
+      });
+    }
+    function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(frame)}}
+    measure();frame();
+    addEventListener('scroll',onScroll,{passive:true});
+    addEventListener('resize',function(){measure();frame()});
+    addEventListener('load',function(){measure();frame()});
+  }
+
+  // hero video: make sure autoplay actually happens (iOS low-power mode etc.)
+  var v=document.getElementById('heroVideo');
+  if(v){
+    if(reduce){v.removeAttribute('autoplay');v.pause()}
+    else{var p=v.play();if(p&&p.catch){p.catch(function(){document.addEventListener('touchstart',function(){v.play()},{once:true,passive:true})})}}
+  }
+
+  // open-now (Europe/London)
+  try{
+    var H={0:[8.5,19],1:[7.5,19],2:[7.5,19],3:[7.5,19],4:[7.5,19],5:[8.5,23],6:[8.5,23]};
+    var parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
+    var get=function(t){return (parts.find(function(p){return p.type===t})||{}).value};
+    var day=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(get('weekday'));
+    var now=parseInt(get('hour'),10)+parseInt(get('minute'),10)/60;
+    var o=H[day],el=document.getElementById('openNow'),open=now>=o[0]&&now<o[1];
+    el.classList.toggle('on',open);
+    var fmt=function(h){var hh=Math.floor(h),mm=h%1?':30':'';return (hh>12?hh-12:hh)+mm+(hh>=12?'pm':'am')};
+    el.querySelector('span').textContent=open?'Open now · until '+fmt(o[1]):(now<o[0]?'Closed · opens '+fmt(o[0])+' today':'Closed now · opens '+fmt(H[(day+1)%7][0])+' tomorrow');
+    var li=document.querySelector('.hours li[data-d="'+day+'"]');if(li){li.style.color='var(--brick)';li.style.fontWeight='500'}
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
